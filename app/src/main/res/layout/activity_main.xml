@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.pharma_gpa_calculator.myapplicationgpa.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="290dp"
+                android:layout_height="230dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:baselineAlignBottom="false"
+                android:clickable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/gpaimage"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/level_textView"
+                    android:text="Level 1 : " />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToTerm1"
+                    android:text="Term 1" />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToTerm2"
+                    android:text="Term 2" />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToSummer1"
+                    android:text="Summer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/level_textView"
+                    android:text="Level 2 : " />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToTerm3"
+                    android:text="Term 1" />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToTerm4"
+                    android:text="Term 2" />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToSummer2"
+                    android:text="Summer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/level_textView"
+                    android:text="Level 3 : " />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToTerm5"
+                    android:text="Term 1" />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToTerm6"
+                    android:text="Term 2" />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToSummer3"
+                    android:text="Summer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/level_textView"
+                    android:text="Level 4 : " />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToTerm7"
+                    android:text="Term 1" />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToTerm8"
+                    android:text="Term 2" />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToSummer4"
+                    android:text="Summer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/level_textView"
+                    android:text="Level 5 : " />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToTerm9"
+                    android:text="Term 1" />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToTerm10"
+                    android:text="Term 2" />
+
+                <Button
+                    style="@style/term_button"
+                    android:backgroundTint="@color/term_button_color"
+                    android:onClick="goToSummer5"
+                    android:text="Summer" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

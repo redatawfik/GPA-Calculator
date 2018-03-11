@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="courses_array">
+        <item>~empty~</item>
+        <item>Biochemistry (1) </item>
+        <item>Biochemistry (2)</item>
+        <item>Biopharmaceutics &amp; Pharmacokinetics</item>
+        <item>Biostatistics</item>
+        <item>Clinical Biochemistry</item>
+        <item>Clinical Pharmacy</item>
+        <item>Combinatorial Chemistry and Quantum Mechanics</item>
+        <item>Cosmetic Preparations</item>
+        <item>Drug Design</item>
+        <item>Drug Information</item>
+        <item>Drug Marketing</item>
+        <item>Drug Targeting</item>
+        <item>English Language</item>
+        <item>First Aids &amp; Emergency Medicine</item>
+        <item>Food Analysis </item>
+        <item>Geriatrics</item>
+        <item>Heterocyclic Chemistry</item>
+        <item>Histology &amp; Anatomy</item>
+        <item>Hospital Pharmacy</item>
+        <item>Immunology</item>
+        <item>Industrial Pharmacy (1)</item>
+        <item>Industrial Pharmacy (2) &amp; Good Manufacturing Practice</item>
+        <item>Inorganic Chemistry</item>
+        <item>Instrumental and Applied Analysis </item>
+        <item>Internationally Controlled Drugs</item>
+        <item>Marine Natural Drugs</item>
+        <item>Medical Botany</item>
+        <item>Medical Microbiology and Immunology</item>
+        <item>Medical Terminology</item>
+        <item>Medicinal Chemistry (1)</item>
+        <item>Medicinal Chemistry (2)</item>
+        <item>Medicinal Chemistry (3)</item>
+        <item>Nano &amp; Radiopharmaceuticals</item>
+        <item>Natural Drug Discovery</item>
+        <item>Nutraceuticals</item>
+        <item>Nutrition</item>
+        <item>Nutrition in Disease Prevention and Cure</item>
+        <item>Parasitology</item>
+        <item>Pathology</item>
+        <item>Pathophysiology</item>
+        <item>Pharmaceutical Analytical Chemistry (1) </item>
+        <item>Pharmaceutical Analytical Chemistry (2)</item>
+        <item>Pharmaceutical Biotechnology</item>
+        <item>Pharmaceutical Business Administration</item>
+        <item>Pharmaceutical Dosage Forms (1)</item>
+        <item>Pharmaceutical Dosage Forms (2)</item>
+        <item>Pharmaceutical Ethics &amp; Legislation </item>
+        <item>Pharmaceutical Microbiology</item>
+        <item>Pharmaceutical Organic Chemistry (1)</item>
+        <item>Pharmaceutical Organic Chemistry (2)</item>
+        <item>Pharmaceutical Organic Chemistry (3) </item>
+        <item>Pharmaceutics</item>
+        <item>Pharmacognosy (1)</item>
+        <item>Pharmacognosy (2)</item>
+        <item>Pharmacognosy (3)</item>
+        <item>Pharmacology (1)</item>
+        <item>Pharmacology (2)</item>
+        <item>Pharmacology (3)</item>
+        <item>Pharmacy Orientation</item>
+        <item>Pharmacy Practice</item>
+        <item>Physical Chemistry </item>
+        <item>Physical Pharmacy</item>
+        <item>Physiology</item>
+        <item>Phytochemistry (1)</item>
+        <item>Phytochemistry (2) </item>
+        <item>Phytotherapy</item>
+        <item>Polymers, Nanochemistry and Green Chemistry</item>
+        <item>Psychology &amp; Communication Skills</item>
+        <item>Public Health</item>
+        <item>Quality Assurance of Education</item>
+        <item>Quality Control of Drugs</item>
+        <item>Spectroscopic Identification</item>
+        <item>Technology of Natural Drugs</item>
+        <item>Therapeutic Drug Monitoring</item>
+        <item>Therapeutics</item>
+        <item>Toxicology &amp; Forensic Medicine</item>
+
+
+    </string-array>
+
+</resources>

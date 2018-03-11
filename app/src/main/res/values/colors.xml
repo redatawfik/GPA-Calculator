@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff5722</color>
+    <color name="colorPrimaryDark">#e64a19</color>
+    <color name="colorAccent">#ff9e80</color>
+    <color name="spinner_background">#e0f2f1</color>
+    <color name="layout_background">#fbe9e7</color>
+    <color name="button_background">#ff3d00</color>
+    <color name="button_shadow">#455a64</color>
+    <color name="next_prev_bu">#90a4ae</color>
+    <color name="term_button_color">#ff9e80</color>
+
+</resources>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:SearchableSpinner="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingTop="2dp"
+    tools:context="com.pharma_gpa_calculator.myapplicationgpa.Term1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/prev_term_button"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_weight="0"
+            android:background="#ffff"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_arrow_left_bold_circle" />
+
+        <ImageView
+            android:id="@+id/term_ImageView"
+            android:layout_width="239dp"
+            android:layout_height="109dp"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/level1_term1_65" />
+
+
+
+        <ImageButton
+            android:id="@+id/next_term_button"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_weight="0"
+            android:background="#ffff"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_arrow_right_bold_circle" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:gravity="right"
+                android:text="Term GPA : "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/gpa_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text=" 0.00"
+                android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:freezesText="false"
+                android:gravity="right"
+                android:text="cGPA : "
+                android:textAllCaps="false"
+                android:textAppearance="@android:style/TextAppearance.Holo"
+                android:textIsSelectable="false"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/cGPA_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text=" 0.00"
+                android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            style="@style/number_textView"
+            android:text="#" />
+
+        <TextView
+            style="@style/courseName_textView_style"
+            android:text="Course Name" />
+
+        <TextView
+            style="@style/creditHours_textView_style"
+            android:text="Credit Hours" />
+
+        <TextView
+            style="@style/grade_textView_style"
+            android:text="Grade" />
+
+    </LinearLayout>
+
+    <ScrollView
+        style="@style/scrollView_style"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/number_textView"
+                        android:text="1-" />
+
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:id="@+id/sp1"
+                        style="@style/spinner_style" />
+
+                    <TextView
+                        android:id="@+id/hour1"
+                        style="@style/hour_textView" />
+
+                    <EditText
+                        android:id="@+id/grade_et1"
+                        style="@style/grade_editText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/number_textView"
+                        android:text="2-" />
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:id="@+id/sp2"
+                        style="@style/spinner_style" />
+
+                    <TextView
+                        android:id="@+id/hour2"
+                        style="@style/hour_textView" />
+
+                    <EditText
+                        android:id="@+id/grade_et2"
+                        style="@style/grade_editText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/number_textView"
+                        android:text="3-" />
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:id="@+id/sp3"
+                        style="@style/spinner_style" />
+
+                    <TextView
+                        android:id="@+id/hour3"
+                        style="@style/hour_textView"
+                        android:layout_width="0dp" />
+
+                    <EditText
+                        android:id="@+id/grade_et3"
+                        style="@style/grade_editText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/number_textView"
+                        android:text="4-" />
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:id="@+id/sp4"
+                        style="@style/spinner_style" />
+
+                    <TextView
+                        android:id="@+id/hour4"
+                        style="@style/hour_textView" />
+
+                    <EditText
+                        android:id="@+id/grade_et4"
+                        style="@style/grade_editText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/number_textView"
+                        android:text="5-" />
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:id="@+id/sp5"
+                        style="@style/spinner_style" />
+
+                    <TextView
+                        android:id="@+id/hour5"
+                        style="@style/hour_textView" />
+
+                    <EditText
+                        android:id="@+id/grade_et5"
+                        style="@style/grade_editText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/number_textView"
+                        android:text="6-" />
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:id="@+id/sp6"
+                        style="@style/spinner_style" />
+
+                    <TextView
+                        android:id="@+id/hour6"
+                        style="@style/hour_textView" />
+
+                    <EditText
+                        android:id="@+id/grade_et6"
+                        style="@style/grade_editText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/number_textView"
+                        android:text="7-" />
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:id="@+id/sp7"
+                        style="@style/spinner_style" />
+
+                    <TextView
+                        android:id="@+id/hour7"
+                        style="@style/hour_textView" />
+
+                    <EditText
+                        android:id="@+id/grade_et7"
+                        style="@style/grade_editText" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/number_textView"
+                        android:text="8-" />
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:id="@+id/sp8"
+                        style="@style/spinner_style" />
+
+                    <TextView
+                        android:id="@+id/hour8"
+                        style="@style/hour_textView" />
+
+                    <EditText
+                        android:id="@+id/grade_et8"
+                        style="@style/grade_editText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/number_textView"
+                        android:text="9-" />
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:id="@+id/sp9"
+                        style="@style/spinner_style" />
+
+                    <TextView
+                        android:id="@+id/hour9"
+                        style="@style/hour_textView" />
+
+                    <EditText
+                        android:id="@+id/grade_et9"
+                        style="@style/grade_editText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/number_textView"
+                        android:text="10-" />
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:id="@+id/sp10"
+                        style="@style/spinner_style" />
+
+                    <TextView
+                        android:id="@+id/hour10"
+                        style="@style/hour_textView" />
+
+                    <EditText
+                        android:id="@+id/grade_et10"
+                        style="@style/grade_editText" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        style="@style/calculate_button_style"
+        android:backgroundTint="@color/button_background"
+        android:clickable="true"
+        android:onClick="getDisplayTermData" />
+
+
+</LinearLayout>
